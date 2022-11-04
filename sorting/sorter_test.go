@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-const size = 100_000
+const size = 1_000
 
 func TestSorter(t *testing.T) {
 	shuffled, sorted, reversed := makeInput(size)
